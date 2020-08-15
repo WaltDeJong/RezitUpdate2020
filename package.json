@@ -1,0 +1,43 @@
+{
+  "name": "rezitupdate2020",
+  "version": "1.0.0",
+  "description": "Update for Rezit",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "/Users/sabrina/Desktop/Week4Assignment/RezitUpdate2020/.git/"
+  },
+  "author": "Walter De Jong",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "del": "^3.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-flatmap": "^1.0.2",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rev": "^8.1.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-usemin": "^0.3.29",
+    "lite-server": "^2.5.4",
+    "onchange": "^7.0.2",
+    "parallelshell": "^3.0.2",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "imagemin-cli": "^3.0.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
