@@ -164,6 +164,23 @@ body{
     background: #F5F5F5;
 }
 
+.RezitLogo{
+  width: 60%;
+  height: 60%;
+}
+
+.RezitBlogLogo{
+  width: 20%;
+  height: 20%;
+  margin-top: 30px;
+}
+
+.RezitFooterLogo{
+  width:150%;
+
+}
+
+
 .navbar{
   z-index: 2;
 }
@@ -384,7 +401,7 @@ margin-bottom: 50px;
 
 .blog-text{
   font-family: 'Archivo Narrow', sans-serif;
-  margin-top: -60px;
+
 }
 
 .blog-header{
@@ -561,5 +578,19 @@ margin-bottom: 50px;
 
   .cover-div{
     margin-top: -300px;
+  }
+  .RezitBlogLogo{
+    width: 30%;
+    height: 30%;
+    margin-top: 70px;
+  }
+  .RezitLogo{
+    width: 45%;
+    height: 45%;
+  }
+
+  .RezitFooterLogo{
+    width:45%;
+
   }
 }
