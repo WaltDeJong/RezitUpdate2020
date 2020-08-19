@@ -435,4 +435,12 @@ margin-bottom: 50px;
     width:45%;
 
   }
+
+  .carousel-p-text{
+    display: none;
+  }
+
+  .info-div{
+    display: none;
+  }
 }
