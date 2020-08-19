@@ -25,11 +25,12 @@ body{
   z-index: 2;
 }
 
-.custom-toggler.navbar-toggler {
-    background-image: linear-gradient(-150deg, #031b26, #01383c);
-}
+
 
 .custom-toggler .navbar-toggler-icon {
+  position: absolute;
+  top:30px;
+  right: 30px;
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(245, 245, 245, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
@@ -425,8 +426,8 @@ margin-bottom: 50px;
     margin-top: 70px;
   }
   .RezitLogo{
-    width: 45%;
-    height: 45%;
+    width: 55%;
+    height: 55%;
   }
 
   .RezitFooterLogo{
