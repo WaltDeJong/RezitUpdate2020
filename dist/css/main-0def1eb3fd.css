@@ -177,8 +177,9 @@ body{
 
 .RezitFooterLogo{
   width:150%;
-
 }
+
+
 
 
 .navbar{
@@ -187,7 +188,7 @@ body{
 
 .navbar-toggler{
   position: absolute;
-  top:15px;
+  top:35px;
   right: 30px;
 }
 
@@ -563,14 +564,29 @@ margin-bottom: 50px;
 }
 
 .navLineBreak{
+  margin-top: -25px;
   border: 1px solid #F5F5F5;
   z-index: 3;
   width: 100%;
 }
 
-.icon-small{
-  margin-left: 35px;
+.footLineBreak{
+  border: 1px solid #F5F5F5;
+  z-index: 3;
+  width: 100%;
+
 }
+
+.copyright{
+  height: 75%;
+  margin-left: 40px;
+  color: #F5F5F5;
+}
+
+.order-card{
+  margin-top: 80px;
+}
+
 
 .carousel-indicators{
   bottom: 0px;
@@ -629,8 +645,10 @@ margin-bottom: 50px;
   }
 
   .RezitFooterLogo{
-    margin-left: 25px;
+
+    width:45%;
   }
+
 }
 
 

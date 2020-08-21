@@ -373,72 +373,35 @@
 <body>
   <nav class="navbar navbar-transparent navbar-expand-md">
     <div class="container">
-      <a class="navbar-brand mr-auto" href="#"> <img src="img/RezitLogo.png" height="60%" width="60%"></a>
+      <a class="navbar-brand mr-auto" href="#"> <img class="RezitLogo" src="img/RezitLogo.png"></a>
       <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="Navbar">
         <ul class="navbar-nav ml-auto text-center">
-          <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="index.html#pricing">Pricing</a></li>
-          <li class="nav-item"><a class="nav-link" href="index.html#howitworks">How it works</a></li>
+          <li class="nav-item active"><a class="nav-link" href="./index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./index.html#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="./index.html#pricing">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="./index.html#howitworks">How it works</a></li>
           <li class="nav-item"><a class="nav-link" href="./contactus.html">Contact</a></li>
         </ul>
       </div>
     </div>
+    <hr class="navLineBreak d-md-none">
   </nav>
 
   <div class="jumbotron cover-contact-div text-center">
     <div class="cover-contact-content">
-      <h3 class="contact-main">Place Your Order</h3>
-      <hr>
-      <br>
       <div class="row">
         <div class="col-sm-10 col-12 offset-sm-1">
-          <div class="card">
+          <div class="card order-card">
             <div class="card-body">
               <div class="card-header" id="headingFormInfo">
-              <h4 class="order-header-text">Order Details</h4>
-            </div>
-              <div class="row orderDetailsDiv">
-                <div class="col-12 col-md-10 offset-md-1">
-                  <table class="table table-striped">
-                    <tbody>
-                      <tr>
-                        <th scope="row">Package Selection</th>
-                        <td>Standard Package</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Product Details</th>
-                        <td>
-                          <p>1 Expertly Written Resume</p>
-                          <p>Keyword Optimization</p>
-                          <p>Receive DOCX and PDF Files</p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Price</th>
-                        <td>$149.99 CAD</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">HST Tax</th>
-                        <td>$22.50 CAD</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">TOTAL Price</th>
-                        <td>$172.49 CAD</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-              <div class="card-header" id="headingFormInfo">
-                <h4 class="order-header-text">Form Information</h4>
+                <h4 class="order-header-text">Place Your Order</h4>
               </div>
               <br>
                   <div class="row">
-                    <div class="col-12 col-md-4 offset-sm-1">
+                    <div class="col-12 col-md-4 offset-md-1">
                       <button type="button" class="btn btn-primary order-button btn-block" data-toggle="modal" data-target="#attachmentModal">Attach File</button>
                     </div>
 
@@ -450,9 +413,6 @@
                       <button type="button" class="btn btn-primary order-button btn-block" data-toggle="modal" data-target="#formModalCenter">Fill Out Simple Form</button>
 
                     </div>
-                  </div>
-                  <div class="card-header" id="headingFormInfo">
-                    <h4 class="order-header-text">Additional Options</h4>
                   </div>
                   <br>
                     <form class="needs-validation" novalidate>
@@ -477,7 +437,7 @@
                 </form>
                 <br>
                 <div class="col-12 col-md-4 offset-md-4">
-                  <button type="button" class="btn btn-primary order-button btn-block">Submit Order</button>
+                  <button type="button" class="btn btn-success order-button btn-block">Submit Order</button>
                   <small id="emailHelp" class="form-text text-muted">Don't worry. You won't be charged until you approve your final draft.</small>
                 </div>
                   <br>
@@ -505,28 +465,45 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-2 d-md-none text-center">
-        <i class="fa fa-facebook-square fa-2x footer-icon" aria-hidden="true"></i>
-        <i class="fa fa-linkedin-square fa-2x footer-icon" aria-hidden="true"></i>
-        <i class="fa fa-twitter-square fa-2x footer-icon" aria-hidden="true"></i>
-      </div>
       <div class="col-12 col-md-2">
         <ul class="footer-nav">
-          <li class="nav-item active"><a class="nav-link" href="index.html#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="index.html#howitworks">How it works</a></li>
-          <li class="nav-item"><a class="nav-link" href="index.html#pricing">Pricing</a></li>
-          <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+          <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./index.html#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="./index.html#howitworks">How it works</a></li>
+          <li class="nav-item"><a class="nav-link" href="./index.html#pricing">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
         </ul>
       </div>
-      <div class="col-12 col-md-3">
+      <hr class="footLineBreak d-md-none">
+      <div class="col-12 col-md-3 d-none d-md-block">
         <ul class="footer-nav">
-          <li class="nav-item active"><a class="nav-link" href="#">Privacy Policy</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Privacy Policy</a></li>
           <li class="nav-item"><a class="nav-link" href="./aboutus.html">Terms and Conditions</a></li>
         </ul>
       </div>
-      <div class="col-12 col-md-2 offset-lg-3 offset-md-2 text-center">
-        <img class="RezitFooterLogo" src="img/RezitLogo.png">
+      <div class="col-12 offset-3 col-md-2 offset-md-2 order-md-11 d-md-none">
+        <img class="RezitFooterLogo" src="img/FooterLogoSimple.png">
+      </div>
+      <div class="col-12 offset-3 col-md-2 offset-md-2 order-md-11 d-none d-md-block">
+        <img class="RezitFooterLogo" src="img/footerlogo.png">
+      </div>
+      <div class="col-12 col-md-2 d-md-none text-center">
+        <div class="icon-small">
+          <i class="fa fa-facebook-square fa-2x footer-icon" aria-hidden="true"></i>
+          <i class="fa fa-linkedin-square fa-2x footer-icon" aria-hidden="true"></i>
+          <i class="fa fa-twitter-square fa-2x footer-icon" aria-hidden="true"></i>
+          <div class="row">
+            <div class="col-6 text-right">
+              <small><a class="terms" href="#">Privacy Policy</a></small>
+            </div>
+            <div class="col-6 text-left ">
+              <small><a class="terms ml-auto" href="./aboutus.html">Terms and Conditions</a></small>
+            </div>
+          </div>
+          <div class="copyright text-center">
+            <small>© Copyright 2020 Rezit. All Rights Reserved. </small>
+          </div>
+        </div>
       </div>
     </div>
   </div>
