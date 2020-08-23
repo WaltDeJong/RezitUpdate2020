@@ -4,10 +4,10 @@
   "description": "Update for Rezit",
   "main": "index.html",
   "scripts": {
-  "start": "npm run lite",
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "lite": "lite-server"
-},
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
   "repository": {
     "type": "git",
     "url": "/Users/sabrina/Desktop/Week4Assignment/RezitUpdate2020/.git/"
@@ -32,6 +32,7 @@
     "rimraf": "^3.0.2"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "bootstrap": "^4.5.0",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
