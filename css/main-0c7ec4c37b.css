@@ -162,6 +162,7 @@ body{
     padding:0px 0px 0px 0px;
     z-index:0;
     background: #F5F5F5;
+    position:fixed
 }
 
 .RezitLogo{
@@ -674,7 +675,6 @@ margin-bottom: 50px;
 
 .main-container {
   background: #fff;
-  max-width: 1000px;
   margin: 25px auto 25px auto;
   position: relative;
 }
