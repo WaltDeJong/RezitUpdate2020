@@ -165,11 +165,6 @@ html, body{
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
-
-
-
-
 }
 
 .RezitLogo{
@@ -182,13 +177,6 @@ html, body{
   height: 20%;
   margin-top: 30px;
 }
-
-.RezitFooterLogo{
-
-}
-
-
-
 
 .navbar{
   z-index: 2;
@@ -236,9 +224,14 @@ html, body{
 }
 
 .review-text{
-  margin-top: 250px;
+  margin-top: 150px;
   font-family: 'Archivo Narrow', sans-serif;
 
+}
+
+.proudly-canadian{
+  width: 80%;
+  margin-top: 20px;
 }
 
 
@@ -253,12 +246,10 @@ margin-bottom: 50px;
 .reviewButton:hover{
   color:white;
   background-color: #031b26;
-
 }
 
 
 .rowReview{
-  margin-top: 150px;
   background-color: #031B26;
 
 }
@@ -308,6 +299,7 @@ margin-bottom: 50px;
   color:#F5F5F5;
   font-family: 'Archivo Narrow', sans-serif;
   margin-top: 20px;
+  font-size: 35px;
 
 }
 
@@ -316,6 +308,7 @@ margin-bottom: 50px;
   font-family: 'Archivo Narrow', sans-serif;
   margin-top: 10px;
   margin-left: 50px;
+  font-size: 25px;
 }
 
 .info-div{
@@ -428,7 +421,7 @@ margin-bottom: 50px;
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-: 768px) {
 
   .cover-contact-div {
     margin-top: -260px;
@@ -529,13 +522,6 @@ margin-bottom: 50px;
   margin: 15px;
 }
 
-.border-line{
-  border-left:1px solid #000;
-  height:70%;
-  margin-left: 40px;
-
-
-}
 
 .order-header-text{
   color: #2e2e2e;
@@ -597,6 +583,17 @@ margin-bottom: 50px;
   bottom: 0px;
 }
 
+.cta-button{
+  color:white;
+  text-decoration: none;
+}
+
+.cta-button:hover{
+  text-decoration: none;
+  color: #F5F5F5;
+}
+
+
 
 
 @media screen and (max-width: 768px) {
@@ -641,9 +638,6 @@ margin-bottom: 50px;
 
   }
 
-  .carousel-p-text{
-    display: none;
-  }
 
   .info-div{
     display: none;
@@ -654,6 +648,7 @@ margin-bottom: 50px;
     width:45%;
   }
 
-
-
+  .proudly-canadian{
+    width: 60%;
+  }
 }
