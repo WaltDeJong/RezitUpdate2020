@@ -20,4 +20,4 @@
      $("#formCarousel").carousel( { interval: false } );
   });
 
-  
+  AOS.init();
